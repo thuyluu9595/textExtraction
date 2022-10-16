@@ -22,17 +22,15 @@ def imageThinner(image):
     erosion = cv2.erode(image, kernel, iterations=2)
     return erosion
 
-
-def main():
-    img = cv2.imread("ExtractedImages/Part#.jpg")
-    cv2.imshow("BEFORE", img)
-    img = imageBinarization(img)
-    img = imageThinner(img)
-    text = pytesseract.image_to_string(img, config=myconfig)
-    print(text)
-    cv2.imshow("AFTER", img)
-    cv2.waitKey(0)
-
-
-if __name__ == "__main__":
-    main()
+# Used for testing purpose
+# def main():
+#     img = cv2.imread("ExtractedImages/Part#.jpg")
+#     cv2.imshow("BEFORE", img)
+#     img = imageBinarization(img)
+#     img = imageThinner(img)
+#     text = pytesseract.image_to_string(img, config=myconfig)
+#     print(text)
+#     cv2.imshow("AFTER", img)
+#     cv2.waitKey(0)
+#
+# main()
