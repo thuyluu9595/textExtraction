@@ -92,12 +92,12 @@ if __name__ == '__main__':
             [(374, 426), (842, 495), 'Lot#'],
             [(394, 624), (742, 697), 'Batch#'],
             [(208, 530), (346, 593), 'Qty']]
-    else:
+    elif len(sys.argv) > 1 and sys.argv[1] == 'ROI':
         ROI = get_coordinate_and_types()
 
     # Read images
     img_template = cv2.imread('ImageTemplate/image0.jpg')
-    path = 'TestImages'
+    path = 'InputImages'
     image_list = os.listdir(path)
     data_list = []
     titles = []
