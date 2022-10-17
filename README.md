@@ -3,6 +3,11 @@
 ## What is it?
 This project is designed to extracting information (text) from production labels which would help to reduce the working time of grabbing it by hands.
 ### Example:
+From input label:
+![alt text](https://github.com/thuyluu9595/textExtraction/blob/master/ImageTemplate/image0.jpg?raw=true)
+CSV file output:
+
+<img width="865" alt="Screen Shot 2022-10-17 at 8 02 13 AM" src="https://user-images.githubusercontent.com/78382696/196213954-75230401-2fe2-47ff-b95d-ecbf0a0cbff1.png">
 
 ## Main Features
 Here are some features of this program:
