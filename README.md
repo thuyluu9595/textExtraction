@@ -4,7 +4,9 @@
 This project is designed to extracting information (text) from production labels which would help to reduce the working time of grabbing it by hands.
 ### Example:
 From input label:
-![alt text](https://github.com/thuyluu9595/textExtraction/blob/master/ImageTemplate/image0.jpg?raw=true)
+
+ ![image0](https://user-images.githubusercontent.com/78382696/196223028-10b0f50f-a8a9-4b4a-b633-4815eec99313.jpg)
+
 CSV file output:
 
 <img width="865" alt="Screen Shot 2022-10-17 at 8 02 13 AM" src="https://user-images.githubusercontent.com/78382696/196213954-75230401-2fe2-47ff-b95d-ecbf0a0cbff1.png">
